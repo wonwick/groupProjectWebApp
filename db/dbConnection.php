@@ -1,8 +1,8 @@
 <?php
 
 $server = 'localhost';
-$username = 'root';
-$password = '';
+$username = 'website';
+$password = 'group27';
 $db = 'trackingsystem';
 
 $connect= mysqli_connect($server,$username,$password,$db);

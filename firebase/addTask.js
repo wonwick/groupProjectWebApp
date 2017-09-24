@@ -19,7 +19,7 @@ function submitClick() {
     //adding overview which is needed for availableTasklist
     overviewRef.child(id).set({
       id: id,
-      Name: taskName.value,
+      name: taskName.value,
       area: taskArea.value,
     });
     //adding other details which is needed for deatiledTaskView
